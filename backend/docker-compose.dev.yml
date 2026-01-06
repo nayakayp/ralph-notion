@@ -1,0 +1,54 @@
+# Development docker-compose with hot reload
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: notionv2-api-dev
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3001}:3001"
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/notionv2
+      - BETTER_AUTH_SECRET=dev-secret-change-in-production
+      - BETTER_AUTH_URL=http://localhost:3001
+      - STORAGE_PROVIDER=local
+      - STORAGE_LOCAL_PATH=/app/uploads
+      - CORS_ORIGIN=http://localhost:3000,http://localhost:5173
+    volumes:
+      - ./src:/app/src:ro
+      - ./uploads:/app/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - notionv2-network
+
+  db:
+    image: postgres:16-alpine
+    container_name: notionv2-db-dev
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=notionv2
+    volumes:
+      - postgres_data_dev:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d notionv2"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - notionv2-network
+
+volumes:
+  postgres_data_dev:
+
+networks:
+  notionv2-network:
+    driver: bridge
