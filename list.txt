@@ -1,0 +1,771 @@
+# COMPLETE NOTION FEATURES LIST
+
+## 1. WORKSPACE & NAVIGATION
+### Workspace Management
+- Multiple workspaces support
+- Workspace switching
+- Workspace settings & customization
+- Teamspaces (dedicated team spaces with own members/permissions)
+- Default teamspaces
+- Private section
+- Shared section
+- Favorites section
+
+### Sidebar
+- Expandable/collapsible sidebar
+- Drag and drop page organization
+- Nested pages (infinite levels)
+- Quick search (Cmd/Ctrl + K)
+- Home dashboard
+- Inbox/notifications
+- Settings access
+- Templates access
+- Trash/deleted pages
+- Create new page button
+- Hover options (add nested page, actions menu)
+- Meetings tab (synced with calendar)
+
+### Navigation
+- Breadcrumb navigation
+- Page history
+- Version history
+- Quick find/search
+- Recent pages
+- Backlinks (see pages linking to current page)
+- Jump to page
+
+## 2. PAGES & DOCUMENTS
+### Page Features
+- Unlimited pages
+- Nested/sub-pages
+- Full-page or inline display
+- Page icons (emoji or custom image)
+- Page cover images (upload, Unsplash, gradient)
+- Page comments/discussions
+- Page locking
+- Page favorites
+- Page duplication
+- Move page to different location
+- Page analytics (views, edits, creators)
+- Custom page URLs (Plus plan+)
+- Page templates
+
+### Page Customization
+- Full-width toggle
+- Small text toggle
+- Font styles (Default, Serif, Mono)
+- Custom page background colors
+- Page header customization
+- Property visibility settings
+
+## 3. BLOCKS (Content Types)
+### Basic Blocks
+- Text/paragraph
+- Headings (H1, H2, H3)
+- Toggle headings
+- Bulleted list
+- Numbered list
+- To-do/checkbox list
+- Toggle list
+- Quote block
+- Divider/horizontal rule
+- Callout (with icon)
+- Page link/mention
+
+### Inline Elements
+- Bold text
+- Italic text
+- Underline
+- Strikethrough
+- Code (inline)
+- Text color (10+ colors)
+- Background/highlight color (10+ colors)
+- Links
+- Mentions (@person, @page, @date)
+- Inline equations (LaTeX/KaTeX)
+- Emoji
+
+### Media Blocks
+- Images (upload, URL, Unsplash)
+- Video (upload or embed)
+- Audio (upload or embed)
+- File attachments
+- PDF embed
+- Web bookmarks
+- Image galleries
+- Image cropping
+- Image masking/shapes
+- Image alignment
+- Image captions
+- Alt text for images
+- Image hyperlinks
+
+### Advanced Blocks
+- Table of contents
+- Breadcrumb block
+- Math equations (block-level, KaTeX)
+- Code blocks (100+ languages with syntax highlighting)
+- Synced blocks (cross-page content sync)
+- Template buttons
+- Columns (2-5 column layouts)
+- Simple tables (non-database)
+- Button blocks
+
+### Embeds (500+ supported services)
+- YouTube
+- Vimeo
+- Spotify
+- SoundCloud
+- Google Maps
+- Google Drive
+- Google Docs/Sheets/Slides
+- Figma
+- Miro
+- Loom
+- Twitter/X
+- GitHub Gist
+- CodePen
+- Replit
+- Typeform
+- Tally
+- Framer
+- Abstract
+- Invision
+- Sketch
+- PDF viewer
+- iFrame embeds (via Iframely)
+- Generic URL embeds
+
+## 4. DATABASES
+### Database Types/Views
+- Table view
+- Board/Kanban view
+- List view
+- Calendar view
+- Gallery view
+- Timeline/Gantt view
+- Chart view (bar, line, pie, donut)
+- Form view
+
+### Database Properties
+- Title (primary key)
+- Text
+- Number (with formats: number, currency, percent)
+- Select (single choice)
+- Multi-select (multiple tags)
+- Status (with groups: To Do, In Progress, Done)
+- Date (with time, end date, reminders)
+- Person/Assignee
+- Files & media
+- Checkbox
+- URL
+- Email
+- Phone number
+- Formula
+- Relation (link to other databases)
+- Rollup (aggregate related data)
+- Created time
+- Created by
+- Last edited time
+- Last edited by
+- Button property
+- ID (auto-increment)
+- AI properties (AI summary, AI keywords, AI translation)
+
+### Database Features
+- Multiple views per database
+- Linked databases/views
+- Data sources (multiple data sources in one database)
+- Filters (simple and advanced)
+- Filter groups (AND/OR logic)
+- Sorting (multiple sort rules)
+- Grouping
+- Sub-grouping (Board view)
+- Hide/show properties per view
+- Property customization per view
+- Database templates
+- Repeating/recurring templates
+- Default templates
+- Inline vs full-page databases
+- Database locking
+- Database duplication
+- Calculations/aggregations (sum, average, count, etc.)
+- Calendar show/hide weekends
+- Gallery card preview customization
+- Timeline date ranges
+- Sub-items/nested items
+- Dependencies
+- Conditional formatting/coloring
+
+### Formulas
+- Mathematical operations
+- Text manipulation
+- Date calculations
+- Logical conditions (if/then)
+- List operations
+- Property references
+- Constants (pi, e, true, false)
+- 100+ functions
+- AI formula generation
+
+### Relations & Rollups
+- One-way relations
+- Two-way relations
+- Self-relations (same database)
+- Rollup calculations (sum, count, average, min, max, etc.)
+- Show original values
+- Unique values
+- Date rollups (earliest, latest, range)
+
+## 5. COLLABORATION
+### Real-time Collaboration
+- Simultaneous editing
+- Live cursors (see where others are)
+- Real-time sync
+- Presence indicators
+- Edit history
+
+### Comments & Discussions
+- Page-level comments
+- Block-level comments
+- Inline comments (on highlighted text)
+- Comment threads
+- @mentions in comments
+- Comment reactions (emoji)
+- Resolve comments
+- Comment notifications
+
+### Sharing & Permissions
+- Share with workspace members
+- Share with specific people
+- Share with groups
+- Guest access (external users)
+- Permission levels:
+  - Full access
+  - Can edit
+  - Can edit content (databases only)
+  - Can comment
+  - Can view
+- Page-level permissions
+- Database row-level permissions (Business/Enterprise)
+- Teamspace permissions
+- Inherited permissions
+- Permission overrides
+- Request access workflow
+- Link sharing with expiration
+- Public link sharing
+
+### Notifications
+- Inbox notifications
+- Push notifications (desktop/mobile)
+- Email notifications
+- Mention notifications
+- Page update notifications
+- Follow pages for updates
+- Notification preferences
+
+## 6. TEMPLATES
+### Template System
+- Page templates
+- Database templates
+- Repeating/recurring templates (daily, weekly, monthly, yearly)
+- Custom repeat schedules
+- Template gallery (10,000+ community templates)
+- Template duplication
+- Template buttons
+- Nested templates
+
+### Template Features
+- Pre-filled properties
+- Pre-filled content
+- Default property values
+- Template marketplace
+
+## 7. AUTOMATION
+### Database Automations
+- Trigger: Page added
+- Trigger: Property edited
+- Trigger: Recurring schedule
+- Action: Edit property
+- Action: Add page to database
+- Action: Edit pages in database
+- Action: Send notification
+- Action: Send email (Gmail)
+- Action: Send Slack notification
+- Action: Send webhook
+- Action: Define variables
+- Multiple triggers per automation
+- Multiple actions per automation
+- Conditional logic (when any/all occur)
+
+### Buttons
+- Button blocks
+- Database button properties
+- Actions:
+  - Insert blocks
+  - Add page to database
+  - Edit pages
+  - Send notification
+  - Send email
+  - Send webhook
+  - Show confirmation
+  - Open page/URL
+  - Send Slack notification
+  - Define variables
+- Mentions in button actions
+- Formulas in button actions
+
+### Recurring Templates
+- Auto-create pages on schedule
+- Daily/weekly/monthly/yearly
+- Custom intervals
+- Start/end dates
+
+## 8. AI FEATURES (Notion AI)
+### AI Writing & Editing
+- Generate text from prompts
+- Continue writing
+- Improve writing
+- Fix spelling & grammar
+- Make shorter/longer
+- Change tone (professional, casual, etc.)
+- Simplify language
+- Summarize text
+- Explain text
+- Translate (multiple languages)
+- Brainstorm ideas
+- Create outlines
+- Draft content
+
+### AI Blocks
+- AI summary block
+- AI action items block
+- AI custom block
+- AI-generated database properties
+
+### AI Chat/Assistant
+- Notion AI chat interface
+- Q&A about workspace content
+- Q&A about connected apps
+- Research mode (deep analysis)
+- Context-aware responses
+- Chat history
+- File/image analysis
+- Code generation
+
+### AI Database Features
+- Build database with AI
+- AI autofill properties
+- AI property suggestions
+- AI formula generation
+
+### AI Agents (New)
+- Personal AI Agent
+- Custom Agents (coming soon)
+- Autonomous task execution
+- Schedule-based agents
+- Trigger-based agents
+
+## 9. INTEGRATIONS & CONNECTIONS
+### Native Integrations
+- Slack
+- GitHub
+- GitLab
+- Jira
+- Asana
+- Trello
+- Google Drive
+- Google Docs/Sheets/Slides
+- Google Calendar
+- Microsoft Teams
+- Microsoft SharePoint
+- Microsoft OneDrive
+- Zoom
+- Figma
+- Linear
+- Zendesk
+- Salesforce
+- Box
+- Gmail (AI connector)
+- Outlook (coming)
+
+### Integration Features
+- Link previews (rich unfurls)
+- Synced databases (GitHub, Jira, Asana, GitLab)
+- AI connectors (search across apps)
+- Two-way sync (select integrations)
+- Webhook actions
+- MCP (Model Context Protocol) support
+
+### API
+- REST API
+- Pages API
+- Databases API
+- Blocks API
+- Users API
+- Comments API
+- Search API
+- OAuth 2.0 authentication
+- Internal integrations
+- Public integrations
+- SCIM API (Enterprise)
+- Link Preview API
+
+### Third-Party Automation
+- Zapier integration
+- Make (Integromat) integration
+- Tray.io integration
+- IFTTT integration
+- n8n integration
+- Automate.io integration
+
+## 10. IMPORT & EXPORT
+### Import From
+- Evernote
+- Trello
+- Asana
+- Confluence
+- Monday.com
+- Google Docs
+- Microsoft Word
+- Microsoft Excel
+- CSV
+- HTML
+- Markdown
+- Plain text
+- PDF (beta)
+- Quip
+- Dropbox Paper
+- WorkFlowy
+- Hackpad
+
+### Export To
+- PDF
+- HTML
+- Markdown
+- CSV (databases)
+- Notion format
+- Workspace backup export
+- Print to PDF
+
+## 11. NOTION CALENDAR (Standalone App)
+- View calendar events
+- Create/edit events
+- Multiple calendar accounts
+- Google Calendar sync
+- Notion database integration
+- Database pages as calendar items
+- Scheduling/availability sharing
+- Booking links
+- Multiple timezone support
+- Keyboard shortcuts
+- Menu bar app (macOS)
+- Desktop app (Mac, Windows)
+- Mobile app (iOS, Android)
+- Web app
+- Time blocking
+- Task management from calendar
+- Two-way database sync
+
+## 12. NOTION MAIL (Beta/Coming)
+- Gmail integration
+- Custom inbox views
+- AI-powered sorting
+- AI draft suggestions
+- Autopilot features
+- Quick snippets
+- Scheduling integration
+- Follow-up automation
+- Notion workspace integration
+
+## 13. NOTION SITES (Publishing)
+- Publish pages to web
+- Custom domains
+- Site navigation/header
+- SEO settings (title, description, OG image)
+- Custom favicon
+- Google Analytics integration
+- Link expiration
+- Search engine indexing toggle
+- Theme customization
+- Allow template duplication
+- Site customization options
+- Password protection (coming)
+
+## 14. FORMS
+- Form view for databases
+- Customizable form fields
+- Form cover image
+- Form description
+- Required fields
+- Form sharing (link, embed)
+- Response notifications
+- Anonymous submissions
+- Form styling
+- AI form building
+
+## 15. SECURITY & ADMIN
+### Security Features
+- SSO/SAML (Enterprise)
+- SCIM provisioning (Enterprise)
+- Two-factor authentication (2FA)
+- Session management
+- Audit logs (Enterprise)
+- Data encryption (in-transit, at-rest)
+- SOC 2 Type 2 certified
+- ISO 27001 certified
+- GDPR compliant
+- CCPA compliant
+- HIPAA compliant (Enterprise)
+- Content export controls
+- Guest invitation controls
+- Domain verification
+- IP address restrictions (Enterprise)
+
+### Admin Controls
+- Workspace settings
+- Member management
+- Guest management
+- Group management
+- Permission management
+- Analytics dashboard
+- Usage statistics
+- Billing management
+- Plan management
+- Security settings
+- Content controls
+- Disable public sharing
+- Disable guest invites
+- Allowed email domains
+
+## 16. SEARCH
+### Basic Search
+- Full-text search
+- Quick find (Cmd/Ctrl + K)
+- Search filters
+- Search in page
+- Recent searches
+
+### Enterprise Search
+- Cross-app search
+- Unified search across tools
+- AI-powered answers
+- Search Slack, Google Drive, GitHub, etc.
+- Natural language queries
+
+## 17. OFFLINE & SYNC
+- Offline mode (desktop & mobile)
+- Download pages for offline
+- Auto-sync when online
+- Offline dashboard
+- Favorites auto-download (paid plans)
+- Recent pages auto-download
+
+## 18. MOBILE APPS
+### iOS App
+- Full Notion functionality
+- Widgets
+- Share extension
+- Quick notes
+- Camera integration
+- Offline support
+- Push notifications
+- Touch ID/Face ID
+- Notion Mail iOS app
+- Notion Calendar iOS app
+
+### Android App
+- Full Notion functionality
+- Widgets
+- Share extension
+- Quick notes
+- Camera integration
+- Offline support
+- Push notifications
+- Biometric authentication
+- Notion Calendar Android app
+
+## 19. DESKTOP APPS
+- macOS app
+- Windows app
+- Linux (unofficial/web)
+- Native notifications
+- Menu bar integration (Calendar)
+- System shortcuts
+- Auto-update
+- Offline support
+- Multiple windows
+- Global search shortcut
+
+## 20. WEB CLIPPER
+- Browser extension (Chrome, Firefox, Safari)
+- Clip entire pages
+- Clip selections
+- Add to specific database
+- Set properties while clipping
+- Quick capture
+
+## 21. PERSONALIZATION
+- Dark mode / Light mode
+- Font preferences (3 options)
+- Page width preferences
+- Sidebar preferences
+- Notification preferences
+- Language settings (12+ languages)
+- Date/time format
+- Start week on (Sunday/Monday)
+- Timezone settings
+
+## 22. KEYBOARD SHORTCUTS
+- 100+ keyboard shortcuts
+- Block creation shortcuts
+- Navigation shortcuts
+- Formatting shortcuts
+- Command palette (Cmd/Ctrl + K)
+- Slash commands (/)
+- Markdown shortcuts
+- Database shortcuts
+- Custom shortcuts (some)
+
+## 23. VERSION HISTORY
+- Page version history
+- Restore previous versions
+- Compare versions
+- Version timestamps
+- Version authors
+- Retention period by plan:
+  - Free: 7 days
+  - Plus: 30 days
+  - Business: 90 days
+  - Enterprise: Unlimited
+
+## 24. ANALYTICS
+- Page analytics
+- View count
+- Unique visitors
+- Edit history
+- Created by/date
+- Last edited by/date
+- Workspace analytics (Business/Enterprise)
+- Member activity
+
+## 25. PLANS & PRICING
+- Free plan
+- Plus plan
+- Business plan
+- Enterprise plan
+- Education plan (free)
+- Startup credits program
+- Nonprofit discounts
+- Add-on: Notion AI
+- Add-on: Custom domain
+
+## 26. AI MEETING NOTES
+- Meeting transcription
+- AI-generated summaries
+- Action items extraction
+- Speaker identification
+- Timestamp linking
+- Notion Calendar integration
+- Auto-add to meetings
+- Meeting recordings
+- Transcript search
+
+## 27. ACCESSIBILITY
+- Keyboard navigation
+- Screen reader support
+- Alt text for images
+- High contrast support
+- Focus indicators
+- ARIA labels
+- Reduced motion support
+
+## 28. LOCALIZATION
+- 12+ language support:
+  - English
+  - Korean
+  - Japanese
+  - French
+  - German
+  - Spanish
+  - Portuguese
+  - Danish
+  - Dutch
+  - Finnish
+  - Norwegian
+  - Swedish
+  - Indonesian
+  - Thai
+  - Vietnamese
+- RTL language support (partial)
+- Date/time localization
+- Number formatting
+
+## 29. FORMULAS (Detailed Functions)
+### Text Functions
+- concat, join, slice, length
+- contains, test, match, replace, replaceAll
+- lower, upper
+- repeat, padStart, padEnd
+- split, format, toNumber
+
+### Number Functions
+- add, subtract, multiply, divide, mod, pow
+- abs, ceil, floor, round, sqrt, cbrt
+- exp, ln, log10, log2
+- min, max, sum, average, median
+- sign, trunc
+
+### Date Functions
+- now, today
+- dateAdd, dateSubtract, dateBetween
+- year, month, day, hour, minute, second
+- formatDate, parseDate
+- start, end
+- timestamp, fromTimestamp
+
+### Logical Functions
+- if, ifs
+- and, or, not
+- empty, equal
+- true, false
+
+### List Functions
+- at, first, last
+- slice, concat
+- filter, find, findIndex
+- some, every
+- map, flat
+- sort, reverse, unique
+- includes, length
+- join, split
+
+## 30. CHARTS (Database View)
+- Bar chart
+- Line chart
+- Pie chart
+- Donut chart
+- Horizontal bar chart
+- Stacked charts
+- Chart customization
+- Data source selection
+- Grouping options
+- Color customization
+
+## 31. ADDITIONAL FEATURES
+- Duplicate detection (databases)
+- Trash/recycle bin
+- Permanent delete
+- Account settings
+- Profile customization
+- Email preferences
+- Connected apps management
+- Billing history
+- Plan upgrades/downgrades
+- Data residency options (Enterprise)
+- Customer support
+- Help center
+- Notion Academy
+- Community forum
+- Status page monitoring
+- API rate limits management
